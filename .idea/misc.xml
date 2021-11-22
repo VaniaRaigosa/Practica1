@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/drawable-v24/ic_baseline_lock_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/drawable-v24/ic_fondo2.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/drawable-v24/ic_wavein.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/drawable-v24/round_border.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/drawable/splash_background.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/font/oswald_bold.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/activity_mapa.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/activity_menu_productos.xml" value="0.209375" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/activity_principal_categoria.xml" value="0.1" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/activity_registro.xml" value="0.2" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/activity_splash.xml" value="0.18659420289855072" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/app_bar_main.xml" value="0.22" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/carrito_row_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/clientes_row_layout.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/datos_pedido.xml" value="0.1" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/datos_pedidos_clientes.xml" value="0.1" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_categorias.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_cliente.xml" value="0.22" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_comprar_ahora.xml" value="0.25" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_confirmar_datos.xml" value="0.15" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_control_pedidos.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_datos_categoria.xml" value="0.2669432918395574" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_datos_pedido_cliente.xml" value="0.1" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_datos_producto.xml" value="0.25" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_datos_venta.xml" value="0.22" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_editar_pedido.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_editar_producto.xml" value="0.18659420289855072" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_eliminar_categoria.xml" value="0.25" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_eliminar_opcion.xml" value="0.209375" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_eliminar_productos.xml" value="0.25" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_finalizar_venta.xml" value="0.22" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_gallery.xml" value="0.10182370820668693" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_maps.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_menu.xml" value="0.209375" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_mostrar_categorias.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_pedidos.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_productos.xml" value="0.25" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_recicler_categorias.xml" value="0.1897644927536232" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_register_cliente.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_registrarse.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_registrarse_fragment.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_seleccion_categoria.xml" value="0.2" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/nav_header_main.xml" value="0.2638680659670165" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/nuevacategoria.xml" value="0.18795289855072464" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/opciones_alimentos.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/opciones_menu.xml" value="0.33" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/paginainicial.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/productos_row_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/layout/row_layout.xml" value="0.30236220472440944" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/menu/activity_main_drawer.xml" value="0.67" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/menu/main.xml" value="0.1" />
+        <entry key="..\:/Users/Vania/Practica12/app/src/main/res/menu/menu_categorias.xml" value="0.1" />
+        <entry key="..\:/Users/Wendy/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_dropdown_item.xml" value="0.17028985507246377" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

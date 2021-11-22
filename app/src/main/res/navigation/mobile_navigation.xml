@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_menu">
+
+    <fragment
+        android:id="@+id/nav_clientes"
+        android:name="com.example.practica1.ui.cliente.ClienteFragment"
+        android:label="@string/menu_cliente"
+        tools:layout="@layout/fragment_cliente" />
+
+    <fragment
+        android:id="@+id/nav_clientes_eliminar"
+        android:name="com.example.practica1.ui.cliente.EliminarCliente"
+        android:label="@string/menu_elim_cli"
+        tools:layout="@layout/fragment_eliminar_cliente" />
+
+    <fragment
+        android:id="@+id/nav_register_clientes"
+        android:name="com.example.practica1.ui.cliente.RegisterClienteFragment"
+        android:label="@string/menu_datos_cliente"
+        tools:layout="@layout/fragment_register_cliente" />
+
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.example.practica1.ui.categoria.MostrarCategorias"
+        android:label="@string/menu_producto"
+        tools:layout="@layout/fragment_mostrar_categorias" />
+
+    <fragment
+        android:id="@+id/nav_datos_alimentos"
+        android:name="com.example.practica1.ui.categoria.MostrarCategorias"
+        android:label="@string/menu_datos_producto"
+        tools:layout="@layout/opciones_alimentos" />
+
+    <fragment
+        android:id="@+id/nav_opciones"
+        android:name="com.example.practica1.ui.menu.Menu"
+        android:label="@string/menu_producto"
+        tools:layout="@layout/fragment_menu" />
+
+    <fragment
+        android:id="@+id/nav_datos_menu"
+        android:name="com.example.practica1.ui.menu.Menu"
+        android:label="@string/menu_datos_producto"
+        tools:layout="@layout/opciones_menu" />
+
+    <fragment
+        android:id="@+id/nav_productos"
+        android:name="com.example.practica1.ui.productos.ProductosFragment"
+        android:label="@string/menu_producto"
+        tools:layout="@layout/fragment_productos" />
+
+    <fragment
+        android:id="@+id/nav_productos_eliminar"
+        android:name="com.example.practica1.ui.productos.EliminarProductos"
+        android:label="@string/menu_elim_prod"
+        tools:layout="@layout/fragment_eliminar_productos" />
+
+    <fragment
+        android:id="@+id/nav_selec_cate"
+        android:name="com.example.practica1.ui.productos.ReciclerCategorias"
+        tools:layout="@layout/fragment_recicler_categorias" />
+
+    <fragment
+        android:id="@+id/nav_datos_producto"
+        android:name="com.example.practica1.ui.productos.DatosProducto"
+        android:label="@string/menu_datos_producto"
+        tools:layout="@layout/fragment_datos_producto" />
+
+    <fragment
+        android:id="@+id/nav_edit_producto"
+        android:name="com.example.practica1.ui.productos.EditarProducto"
+        android:label="@string/menu_edit_producto"
+        tools:layout="@layout/fragment_editar_producto" />
+
+    <fragment
+        android:id="@+id/nav_categorias"
+        android:name="com.example.practica1.ui.categoria.CategoriasFragment"
+        android:label="@string/menu_categoria"
+        tools:layout="@layout/fragment_categorias" />
+
+    <fragment
+        android:id="@+id/nav_categorias_eliminar"
+        android:name="com.example.practica1.ui.categoria.EliminarCategoria"
+        android:label="@string/menu_elim_cate"
+        tools:layout="@layout/fragment_eliminar_categoria" />
+
+    <fragment
+        android:id="@+id/nav_datos_categoria"
+        android:name="com.example.practica1.ui.categorias.DatosCategoria"
+        android:label="@string/menu_datos_categoria"
+        tools:layout="@layout/fragment_datos_categoria" />
+
+    <fragment
+        android:id="@+id/nav_ventas"
+        android:name="com.example.practica1.ui.ventas.DatosVenta"
+        android:label="@string/menu_carrito"
+        tools:layout="@layout/fragment_datos_venta" />
+
+    <fragment
+        android:id="@+id/nav_finalizar_ven"
+        android:name="com.example.practica1.ui.ventas.FinalizarVenta"
+        android:label="@string/menu_finalizar"
+        tools:layout="@layout/fragment_finalizar_venta" />
+
+    <fragment
+        android:id="@+id/nav_eliminar_ven"
+        android:name="com.example.practica1.ui.ventas.EliminarOpcion"
+        android:label="@string/menu_elim_prod"
+        tools:layout="@layout/fragment_eliminar_opcion" />
+
+    <fragment
+        android:id="@+id/nav_comprar"
+        android:name="com.example.practica1.ui.ventas.ComprarAhora"
+        android:label="@string/menu_finalizar"
+        tools:layout="@layout/fragment_comprar_ahora" />
+
+    <fragment
+        android:id="@+id/nav_pedido"
+        android:name="com.example.practica1.ui.pedido.DatosPedidoCliente"
+        android:label="@string/menu_pedido"
+        tools:layout="@layout/fragment_datos_pedido_cliente" />
+
+    <fragment
+        android:id="@+id/nav_pedidos"
+        android:name="com.example.practica1.ui.pedido.ControlPedidos"
+        android:label="@string/menu_pedido_control"
+        tools:layout="@layout/fragment_control_pedidos" />
+
+    <fragment
+        android:id="@+id/nav_editar"
+        android:name="com.example.practica1.ui.pedido.EditarPedido"
+        android:label="@string/menu_edit"
+        tools:layout="@layout/fragment_editar_pedido" />
+
+    <fragment
+        android:id="@+id/nav_mapa"
+        android:name="com.example.practica1.ui.productos.Mapa"
+        android:label="@string/menu_pedido_control"
+        tools:layout="@layout/activity_mapa" />
+
+</navigation>
