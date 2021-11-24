@@ -156,7 +156,7 @@ class ComprarAhora : Fragment() {
                     val actMain = activity as Activity
 
                     actMain.runOnUiThread {
-                        Toast.makeText(context, "¡Tu compra ha sido realizada!", Toast.LENGTH_LONG).show()
+                        //Toast.makeText(context, "¡Tu compra ha sido realizada!", Toast.LENGTH_LONG).show()
                     }
                 }
 
@@ -168,9 +168,9 @@ class ComprarAhora : Fragment() {
                 }
             })
 
-            //startActivity(Intent(context as Context,Mapa::class.java))
-            val navController = view.findNavController()
-            navController.navigate(R.id.nav_pedido)
+            startActivity(Intent(context as Context,Mapa::class.java))
+            /*val navController = view.findNavController()
+            navController.navigate(R.id.nav_pedido)*/
         }
 
         return view

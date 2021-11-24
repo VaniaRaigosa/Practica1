@@ -15,6 +15,7 @@ import com.example.practica1.R
 import com.example.practica1.base.dbHelper
 import com.example.practica1.ui.categorias.DatosCategoria
 import com.example.practica1.ui.productos.DatosProducto
+import com.example.practica1.ui.productos.ProductosFragment
 import com.google.gson.Gson
 import okhttp3.*
 import okhttp3.MediaType.Companion.toMediaType
@@ -165,22 +166,24 @@ class FinalizarVenta : Fragment() {
         btnFinalizar.setOnClickListener {
 
 
-            var url = "http://192.168.100.27:8000/api/guardar_venta"
+            var url = "http://192.168.100.27:8000/api/eliminar_todo"
 
             val jSon = Gson()
 
             val tipoPet = "application/json; charset=utf-8".toMediaType()
 
-            var datosJsonVen = jSon.toJson(
+            /*var datosJsonVen = jSon.toJson(
                 datosVenta(
                     preciofinal.text.toString().toInt(),
                     datosVen.id_producto,
                     datosVen.cantidad,
                     tipo.text.toString()
                 )
-            )
+            )*/
 
-            var request = Request.Builder().url(url).post(datosJsonVen.toRequestBody(tipoPet))
+            var datosJsonPro = njson.toJson(datosPeticion("%"))
+
+            var request = Request.Builder().url(url).get()
 
             val dbHelp = dbHelper(context as Context)
             val dbRead = dbHelp.readableDatabase
@@ -213,6 +216,8 @@ class FinalizarVenta : Fragment() {
 
                     actMain.runOnUiThread {
                         Toast.makeText(context, "¡Tu compra ha sido realizada!", Toast.LENGTH_LONG).show()
+                        val navController = view.findNavController()
+                        navController.navigate(R.id.nav_pedido)
                     }
                 }
 

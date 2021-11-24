@@ -8,7 +8,10 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.navigateUp
 import com.example.practica1.R
 import com.example.practica1.databinding.ActivityLoginBinding
 import com.example.practica1.databinding.ActivityMainBinding
@@ -19,8 +22,11 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.material.navigation.NavigationView
 
 class Mapa : AppCompatActivity(), OnMapReadyCallback,  GoogleMap.OnMyLocationButtonClickListener{
+
+    private lateinit var appBarConfiguration: AppBarConfiguration
 
     private lateinit var map: GoogleMap
     companion object {
@@ -54,12 +60,9 @@ class Mapa : AppCompatActivity(), OnMapReadyCallback,  GoogleMap.OnMyLocationBut
         createMapFragment()
 
         binding.continuar.setOnClickListener {
-            val navController = findNavController(R.id.nav_host_fragment_content_main)
-            navController.navigate(R.id.nav_pedido)
+            Toast.makeText(this, "¡Tu compra ha sido realizada!", Toast.LENGTH_LONG).show()
         }
     }
-
-
 
     private fun createMapFragment() {
         val mapFragment = supportFragmentManager
